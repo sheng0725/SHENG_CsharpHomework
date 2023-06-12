@@ -204,9 +204,9 @@ namespace SHENG_Homework
 
 
             labViewAll.Text = string.Format("總分{0,11}{1,9}{2,9}\r\n" +
-                                   "平均{3,8:F1}{4,7:F1}{5,7:F1}\r\n" +
-                                   "最高分{6,6}{7,7}{8,7}\r\n" +
-                                   "最低分{9,6}{10,7}{11,7}",
+                                   "平均{3,11:F1}{4,9:F1}{5,9:F1}\r\n" +
+                                   "最高分{6,9}{7,9}{8,9}\r\n" +
+                                   "最低分{9,9}{10,9}{11,9}",
                                    totalChinese, totalEnglish, totalMath,
                                    avgChinese, avgEnglish, avgMath,
                                    maxChinese, maxEnglish, maxMath,

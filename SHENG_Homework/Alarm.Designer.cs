@@ -30,6 +30,7 @@
         {
             this.components = new System.ComponentModel.Container();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.txtSetTime = new System.Windows.Forms.TextBox();
             this.btnSetAlarm = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.labNowTime = new System.Windows.Forms.Label();
@@ -38,7 +39,6 @@
             this.label6 = new System.Windows.Forms.Label();
             this.timer = new System.Windows.Forms.Timer(this.components);
             this.labRemaining = new System.Windows.Forms.Label();
-            this.txtSetTime = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -54,6 +54,14 @@
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Select Time";
+            // 
+            // txtSetTime
+            // 
+            this.txtSetTime.Location = new System.Drawing.Point(185, 92);
+            this.txtSetTime.Name = "txtSetTime";
+            this.txtSetTime.Size = new System.Drawing.Size(211, 36);
+            this.txtSetTime.TabIndex = 8;
+            this.txtSetTime.Text = "00:00:00";
             // 
             // btnSetAlarm
             // 
@@ -124,13 +132,6 @@
             this.labRemaining.Size = new System.Drawing.Size(191, 37);
             this.labRemaining.TabIndex = 6;
             this.labRemaining.Text = "尚未輸入時間";
-            // 
-            // txtSetTime
-            // 
-            this.txtSetTime.Location = new System.Drawing.Point(185, 92);
-            this.txtSetTime.Name = "txtSetTime";
-            this.txtSetTime.Size = new System.Drawing.Size(211, 36);
-            this.txtSetTime.TabIndex = 8;
             // 
             // Alarm
             // 
