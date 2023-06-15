@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Hello));
             this.btnSHello = new System.Windows.Forms.Button();
             this.btnSHi = new System.Windows.Forms.Button();
             this.labname = new System.Windows.Forms.Label();
@@ -65,6 +66,7 @@
             // labname
             // 
             this.labname.AutoSize = true;
+            this.labname.BackColor = System.Drawing.Color.Transparent;
             this.labname.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.labname.Location = new System.Drawing.Point(118, 50);
             this.labname.Name = "labname";
@@ -75,6 +77,7 @@
             // labENname
             // 
             this.labENname.AutoSize = true;
+            this.labENname.BackColor = System.Drawing.Color.Transparent;
             this.labENname.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.labENname.Location = new System.Drawing.Point(118, 109);
             this.labENname.Name = "labENname";
@@ -85,6 +88,7 @@
             // labsex
             // 
             this.labsex.AutoSize = true;
+            this.labsex.BackColor = System.Drawing.Color.Transparent;
             this.labsex.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.labsex.Location = new System.Drawing.Point(120, 174);
             this.labsex.Name = "labsex";
@@ -95,6 +99,7 @@
             // labcon
             // 
             this.labcon.AutoSize = true;
+            this.labcon.BackColor = System.Drawing.Color.Transparent;
             this.labcon.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.labcon.Location = new System.Drawing.Point(120, 229);
             this.labcon.Name = "labcon";
@@ -138,7 +143,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.ClientSize = new System.Drawing.Size(537, 450);
             this.Controls.Add(this.txtcon);
             this.Controls.Add(this.txtsex);
             this.Controls.Add(this.txtenname);
