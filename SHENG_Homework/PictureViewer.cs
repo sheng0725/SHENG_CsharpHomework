@@ -1,9 +1,11 @@
 ﻿using SHENG_Homework.Properties;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Globalization;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -14,30 +16,40 @@ namespace SHENG_Homework
 {
     public partial class PictureViewer : Form
     {
-        List<PictureBox> lsPB;
-        string folderPath = @"..\..\img\";
-        //FolderBrowserDialog folderBrowserDialog;
-        //string[] imagePath;
         public PictureViewer()
         {
             InitializeComponent();
-            pictureBox();
+            PictureResources();
         }
-        //建立pictureBox
-        public void pictureBox()
+
+        public void PictureResources()
         {
-            lsPB = new List<PictureBox>();
-            string[] imagePath = Directory.GetFiles(folderPath, "*.*");
-            foreach (string item in imagePath)
+            List<Image> dynamicImageList = new List<Image>();
+            var resourceSet = Properties.Resources.ResourceManager.GetResourceSet(CultureInfo.InvariantCulture, true, false);
+            if (resourceSet != null)
             {
+                foreach (DictionaryEntry entry in resourceSet)
+                {
+                    var value = entry.Value as Bitmap;
+                    if (value != null)
+                    {
+                        dynamicImageList.Add((Image)value);
+                    }
+                }
+            }
+
+            foreach (Image item in dynamicImageList)
+            {
+                //建立pictureBox
                 PictureBox PB = new PictureBox();
                 PB.Size = new Size(100, 100);
                 PB.SizeMode = PictureBoxSizeMode.Zoom;
-                PB.Image = Image.FromFile(item);
+                PB.Image = item;
                 flowLayoutPanel1.Controls.Add(PB);
                 PB.MouseClick += PB_MouseClick;
             }
         }
+
         //開啟單一圖片
         private void PB_MouseClick(object sender, MouseEventArgs e)
         {
