@@ -38,7 +38,8 @@ namespace SHENG_Homework
             currentForm.TopLevel = false;// 設定為非頂層表單
             currentForm.FormBorderStyle = FormBorderStyle.Sizable;// 設定有邊框
             currentForm.AutoSize = false; // 可調整視窗大小
-            panelShow.Controls.Add(currentForm); //將Form 加入 panelHello 的控制項集合
+            //panelShow.Controls.Add(currentForm); //將Form 加入 panelHello 的控制項集合
+            pictureBox1.Controls.Add(currentForm); //將Form 加入 picturebox 的控制項集合
             currentForm.Show();
         }
 
