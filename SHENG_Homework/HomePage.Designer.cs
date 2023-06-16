@@ -48,7 +48,9 @@ namespace SHENG_Homework
             this.btnStudentGrade = new System.Windows.Forms.Button();
             this.btnStudentStructForm = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
+            this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
             this.splitContainer1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer2)).BeginInit();
@@ -65,7 +67,7 @@ namespace SHENG_Homework
             this.btnloan.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.btnloan.Location = new System.Drawing.Point(9, 39);
             this.btnloan.Name = "btnloan";
-            this.btnloan.Size = new System.Drawing.Size(152, 30);
+            this.btnloan.Size = new System.Drawing.Size(135, 30);
             this.btnloan.TabIndex = 1;
             this.btnloan.Text = "Loan";
             this.btnloan.UseVisualStyleBackColor = true;
@@ -78,7 +80,7 @@ namespace SHENG_Homework
             this.btnHello.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.btnHello.Location = new System.Drawing.Point(9, 3);
             this.btnHello.Name = "btnHello";
-            this.btnHello.Size = new System.Drawing.Size(152, 30);
+            this.btnHello.Size = new System.Drawing.Size(135, 30);
             this.btnHello.TabIndex = 0;
             this.btnHello.Text = "Hello";
             this.btnHello.UseVisualStyleBackColor = true;
@@ -91,7 +93,7 @@ namespace SHENG_Homework
             this.butPos.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.butPos.Location = new System.Drawing.Point(9, 75);
             this.butPos.Name = "butPos";
-            this.butPos.Size = new System.Drawing.Size(152, 30);
+            this.butPos.Size = new System.Drawing.Size(135, 30);
             this.butPos.TabIndex = 2;
             this.butPos.Text = "POS";
             this.butPos.UseVisualStyleBackColor = true;
@@ -110,6 +112,7 @@ namespace SHENG_Homework
             this.splitContainer1.Panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.splitContainer1.Panel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("splitContainer1.Panel1.BackgroundImage")));
             this.splitContainer1.Panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.splitContainer1.Panel1.Controls.Add(this.label1);
             // 
             // splitContainer1.Panel2
             // 
@@ -168,7 +171,7 @@ namespace SHENG_Homework
             this.btnAlarm.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold);
             this.btnAlarm.Location = new System.Drawing.Point(9, 471);
             this.btnAlarm.Name = "btnAlarm";
-            this.btnAlarm.Size = new System.Drawing.Size(152, 30);
+            this.btnAlarm.Size = new System.Drawing.Size(135, 30);
             this.btnAlarm.TabIndex = 14;
             this.btnAlarm.Text = "Alarm";
             this.btnAlarm.UseVisualStyleBackColor = true;
@@ -182,7 +185,7 @@ namespace SHENG_Homework
             this.btnGuess.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold);
             this.btnGuess.Location = new System.Drawing.Point(9, 435);
             this.btnGuess.Name = "btnGuess";
-            this.btnGuess.Size = new System.Drawing.Size(152, 30);
+            this.btnGuess.Size = new System.Drawing.Size(135, 30);
             this.btnGuess.TabIndex = 13;
             this.btnGuess.Text = "Guess";
             this.btnGuess.UseVisualStyleBackColor = true;
@@ -196,7 +199,7 @@ namespace SHENG_Homework
             this.btnPictureViewer.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold);
             this.btnPictureViewer.Location = new System.Drawing.Point(9, 399);
             this.btnPictureViewer.Name = "btnPictureViewer";
-            this.btnPictureViewer.Size = new System.Drawing.Size(152, 30);
+            this.btnPictureViewer.Size = new System.Drawing.Size(135, 30);
             this.btnPictureViewer.TabIndex = 12;
             this.btnPictureViewer.Text = "Picture Viewer";
             this.btnPictureViewer.UseVisualStyleBackColor = true;
@@ -210,7 +213,7 @@ namespace SHENG_Homework
             this.btn小畫家.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold);
             this.btn小畫家.Location = new System.Drawing.Point(9, 363);
             this.btn小畫家.Name = "btn小畫家";
-            this.btn小畫家.Size = new System.Drawing.Size(152, 30);
+            this.btn小畫家.Size = new System.Drawing.Size(135, 30);
             this.btn小畫家.TabIndex = 11;
             this.btn小畫家.Text = "小畫家";
             this.btn小畫家.UseVisualStyleBackColor = true;
@@ -224,7 +227,7 @@ namespace SHENG_Homework
             this.btnNotepad.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold);
             this.btnNotepad.Location = new System.Drawing.Point(9, 327);
             this.btnNotepad.Name = "btnNotepad";
-            this.btnNotepad.Size = new System.Drawing.Size(152, 30);
+            this.btnNotepad.Size = new System.Drawing.Size(135, 30);
             this.btnNotepad.TabIndex = 10;
             this.btnNotepad.Text = "Notepad";
             this.btnNotepad.UseVisualStyleBackColor = true;
@@ -238,7 +241,7 @@ namespace SHENG_Homework
             this.btnScreenSaver.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold);
             this.btnScreenSaver.Location = new System.Drawing.Point(9, 291);
             this.btnScreenSaver.Name = "btnScreenSaver";
-            this.btnScreenSaver.Size = new System.Drawing.Size(152, 30);
+            this.btnScreenSaver.Size = new System.Drawing.Size(135, 30);
             this.btnScreenSaver.TabIndex = 9;
             this.btnScreenSaver.Text = "螢幕保護";
             this.btnScreenSaver.UseVisualStyleBackColor = true;
@@ -252,7 +255,7 @@ namespace SHENG_Homework
             this.btnOXGame.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold);
             this.btnOXGame.Location = new System.Drawing.Point(9, 255);
             this.btnOXGame.Name = "btnOXGame";
-            this.btnOXGame.Size = new System.Drawing.Size(152, 30);
+            this.btnOXGame.Size = new System.Drawing.Size(135, 30);
             this.btnOXGame.TabIndex = 8;
             this.btnOXGame.Text = "井字遊戲";
             this.btnOXGame.UseVisualStyleBackColor = true;
@@ -266,7 +269,7 @@ namespace SHENG_Homework
             this.btnForDoWhile.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold);
             this.btnForDoWhile.Location = new System.Drawing.Point(9, 219);
             this.btnForDoWhile.Name = "btnForDoWhile";
-            this.btnForDoWhile.Size = new System.Drawing.Size(152, 30);
+            this.btnForDoWhile.Size = new System.Drawing.Size(135, 30);
             this.btnForDoWhile.TabIndex = 7;
             this.btnForDoWhile.Text = "ForDoWhile";
             this.btnForDoWhile.UseVisualStyleBackColor = true;
@@ -280,7 +283,7 @@ namespace SHENG_Homework
             this.btnCalculator.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold);
             this.btnCalculator.Location = new System.Drawing.Point(9, 183);
             this.btnCalculator.Name = "btnCalculator";
-            this.btnCalculator.Size = new System.Drawing.Size(152, 30);
+            this.btnCalculator.Size = new System.Drawing.Size(135, 30);
             this.btnCalculator.TabIndex = 6;
             this.btnCalculator.Text = "Calculator";
             this.btnCalculator.UseVisualStyleBackColor = true;
@@ -294,7 +297,7 @@ namespace SHENG_Homework
             this.btnStudentGrade.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold);
             this.btnStudentGrade.Location = new System.Drawing.Point(9, 147);
             this.btnStudentGrade.Name = "btnStudentGrade";
-            this.btnStudentGrade.Size = new System.Drawing.Size(152, 30);
+            this.btnStudentGrade.Size = new System.Drawing.Size(135, 30);
             this.btnStudentGrade.TabIndex = 4;
             this.btnStudentGrade.Text = "StudentGrade";
             this.btnStudentGrade.UseVisualStyleBackColor = true;
@@ -308,7 +311,7 @@ namespace SHENG_Homework
             this.btnStudentStructForm.Font = new System.Drawing.Font("微軟正黑體", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.btnStudentStructForm.Location = new System.Drawing.Point(9, 111);
             this.btnStudentStructForm.Name = "btnStudentStructForm";
-            this.btnStudentStructForm.Size = new System.Drawing.Size(152, 30);
+            this.btnStudentStructForm.Size = new System.Drawing.Size(135, 30);
             this.btnStudentStructForm.TabIndex = 3;
             this.btnStudentStructForm.Text = "Student_StructForm";
             this.btnStudentStructForm.UseVisualStyleBackColor = true;
@@ -326,6 +329,20 @@ namespace SHENG_Homework
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
+            // label1
+            // 
+            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("微軟正黑體", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.label1.Location = new System.Drawing.Point(137, 23);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(175, 31);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "C#作業-鄭隆勝\r\n";
+            // 
             // HomePage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
@@ -334,6 +351,8 @@ namespace SHENG_Homework
             this.Controls.Add(this.splitContainer1);
             this.Name = "HomePage";
             this.Text = "HomePage";
+            this.splitContainer1.Panel1.ResumeLayout(false);
+            this.splitContainer1.Panel1.PerformLayout();
             this.splitContainer1.Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
             this.splitContainer1.ResumeLayout(false);
@@ -365,5 +384,6 @@ namespace SHENG_Homework
         private Button btnPictureViewer;
         private Button btn小畫家;
         private PictureBox pictureBox1;
+        private Label label1;
     }
 }
