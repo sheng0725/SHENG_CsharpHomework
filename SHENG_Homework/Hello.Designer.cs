@@ -43,10 +43,10 @@
             // 
             // btnSHello
             // 
-            this.btnSHello.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.btnSHello.Location = new System.Drawing.Point(119, 293);
+            this.btnSHello.Font = new System.Drawing.Font("微軟正黑體", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btnSHello.Location = new System.Drawing.Point(97, 293);
             this.btnSHello.Name = "btnSHello";
-            this.btnSHello.Size = new System.Drawing.Size(130, 49);
+            this.btnSHello.Size = new System.Drawing.Size(163, 49);
             this.btnSHello.TabIndex = 0;
             this.btnSHello.Text = "Say HELLO !";
             this.btnSHello.UseVisualStyleBackColor = true;
@@ -54,10 +54,10 @@
             // 
             // btnSHi
             // 
-            this.btnSHi.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.btnSHi.Location = new System.Drawing.Point(266, 293);
+            this.btnSHi.Font = new System.Drawing.Font("微軟正黑體", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btnSHi.Location = new System.Drawing.Point(277, 293);
             this.btnSHi.Name = "btnSHi";
-            this.btnSHi.Size = new System.Drawing.Size(130, 49);
+            this.btnSHi.Size = new System.Drawing.Size(153, 49);
             this.btnSHi.TabIndex = 1;
             this.btnSHi.Text = "Say HI !";
             this.btnSHi.UseVisualStyleBackColor = true;
@@ -67,10 +67,10 @@
             // 
             this.labname.AutoSize = true;
             this.labname.BackColor = System.Drawing.Color.Transparent;
-            this.labname.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.labname.Location = new System.Drawing.Point(118, 50);
+            this.labname.Font = new System.Drawing.Font("微軟正黑體", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.labname.Location = new System.Drawing.Point(163, 50);
             this.labname.Name = "labname";
-            this.labname.Size = new System.Drawing.Size(58, 21);
+            this.labname.Size = new System.Drawing.Size(75, 26);
             this.labname.TabIndex = 2;
             this.labname.Text = "姓名：";
             // 
@@ -78,10 +78,10 @@
             // 
             this.labENname.AutoSize = true;
             this.labENname.BackColor = System.Drawing.Color.Transparent;
-            this.labENname.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.labENname.Location = new System.Drawing.Point(118, 109);
+            this.labENname.Font = new System.Drawing.Font("微軟正黑體", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.labENname.Location = new System.Drawing.Point(65, 112);
             this.labENname.Name = "labENname";
-            this.labENname.Size = new System.Drawing.Size(131, 21);
+            this.labENname.Size = new System.Drawing.Size(173, 26);
             this.labENname.TabIndex = 3;
             this.labENname.Text = "English Name：";
             // 
@@ -89,10 +89,10 @@
             // 
             this.labsex.AutoSize = true;
             this.labsex.BackColor = System.Drawing.Color.Transparent;
-            this.labsex.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.labsex.Location = new System.Drawing.Point(120, 174);
+            this.labsex.Font = new System.Drawing.Font("微軟正黑體", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.labsex.Location = new System.Drawing.Point(163, 178);
             this.labsex.Name = "labsex";
-            this.labsex.Size = new System.Drawing.Size(58, 21);
+            this.labsex.Size = new System.Drawing.Size(75, 26);
             this.labsex.TabIndex = 4;
             this.labsex.Text = "性別：";
             // 
@@ -100,43 +100,43 @@
             // 
             this.labcon.AutoSize = true;
             this.labcon.BackColor = System.Drawing.Color.Transparent;
-            this.labcon.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.labcon.Location = new System.Drawing.Point(120, 229);
+            this.labcon.Font = new System.Drawing.Font("微軟正黑體", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.labcon.Location = new System.Drawing.Point(163, 233);
             this.labcon.Name = "labcon";
-            this.labcon.Size = new System.Drawing.Size(58, 21);
+            this.labcon.Size = new System.Drawing.Size(75, 26);
             this.labcon.TabIndex = 5;
             this.labcon.Text = "星座：";
             // 
             // txtcname
             // 
-            this.txtcname.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.txtcname.Font = new System.Drawing.Font("微軟正黑體", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.txtcname.Location = new System.Drawing.Point(244, 50);
             this.txtcname.Name = "txtcname";
-            this.txtcname.Size = new System.Drawing.Size(137, 29);
+            this.txtcname.Size = new System.Drawing.Size(137, 35);
             this.txtcname.TabIndex = 6;
             // 
             // txtenname
             // 
-            this.txtenname.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.txtenname.Font = new System.Drawing.Font("微軟正黑體", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.txtenname.Location = new System.Drawing.Point(244, 109);
             this.txtenname.Name = "txtenname";
-            this.txtenname.Size = new System.Drawing.Size(137, 29);
+            this.txtenname.Size = new System.Drawing.Size(137, 35);
             this.txtenname.TabIndex = 7;
             // 
             // txtsex
             // 
-            this.txtsex.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.txtsex.Font = new System.Drawing.Font("微軟正黑體", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.txtsex.Location = new System.Drawing.Point(244, 175);
             this.txtsex.Name = "txtsex";
-            this.txtsex.Size = new System.Drawing.Size(137, 29);
+            this.txtsex.Size = new System.Drawing.Size(137, 35);
             this.txtsex.TabIndex = 8;
             // 
             // txtcon
             // 
-            this.txtcon.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.txtcon.Font = new System.Drawing.Font("微軟正黑體", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.txtcon.Location = new System.Drawing.Point(244, 230);
             this.txtcon.Name = "txtcon";
-            this.txtcon.Size = new System.Drawing.Size(137, 29);
+            this.txtcon.Size = new System.Drawing.Size(137, 35);
             this.txtcon.TabIndex = 9;
             // 
             // Hello
@@ -144,6 +144,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(537, 450);
             this.Controls.Add(this.txtcon);
             this.Controls.Add(this.txtsex);

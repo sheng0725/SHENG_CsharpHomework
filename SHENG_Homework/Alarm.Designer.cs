@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Alarm));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.txtSetTime = new System.Windows.Forms.TextBox();
             this.btnSetAlarm = new System.Windows.Forms.Button();
@@ -86,6 +87,7 @@
             // labNowTime
             // 
             this.labNowTime.AutoSize = true;
+            this.labNowTime.BackColor = System.Drawing.Color.Transparent;
             this.labNowTime.Font = new System.Drawing.Font("微軟正黑體", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.labNowTime.Location = new System.Drawing.Point(420, 20);
             this.labNowTime.Name = "labNowTime";
@@ -102,6 +104,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("微軟正黑體", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.label5.Location = new System.Drawing.Point(291, 20);
             this.label5.Name = "label5";
@@ -112,6 +115,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("微軟正黑體", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.label6.Location = new System.Drawing.Point(291, 89);
             this.label6.Name = "label6";
@@ -126,6 +130,7 @@
             // labRemaining
             // 
             this.labRemaining.AutoSize = true;
+            this.labRemaining.BackColor = System.Drawing.Color.Transparent;
             this.labRemaining.Font = new System.Drawing.Font("微軟正黑體", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.labRemaining.Location = new System.Drawing.Point(426, 89);
             this.labRemaining.Name = "labRemaining";
@@ -137,6 +142,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.labRemaining);
             this.Controls.Add(this.label6);

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ForDoWhile));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.btnNumber = new System.Windows.Forms.Button();
             this.txtNumber = new System.Windows.Forms.TextBox();
@@ -40,24 +41,24 @@
             this.label2 = new System.Windows.Forms.Label();
             this.btnIntOddEven = new System.Windows.Forms.Button();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.btnTwoArr10 = new System.Windows.Forms.Button();
-            this.btnTwoArr01 = new System.Windows.Forms.Button();
             this.btnTwoArr1001 = new System.Windows.Forms.Button();
+            this.btnTwoArr01 = new System.Windows.Forms.Button();
+            this.btnTwoArr10 = new System.Windows.Forms.Button();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.btn100Binary = new System.Windows.Forms.Button();
             this.btn9x9 = new System.Windows.Forms.Button();
             this.btnLottery = new System.Windows.Forms.Button();
             this.btnSwap = new System.Windows.Forms.Button();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
-            this.txtFrom = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.txtTo = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
+            this.btnDo = new System.Windows.Forms.Button();
+            this.btnWhile = new System.Windows.Forms.Button();
+            this.btnFor = new System.Windows.Forms.Button();
             this.txtStep = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.btnFor = new System.Windows.Forms.Button();
-            this.btnWhile = new System.Windows.Forms.Button();
-            this.btnDo = new System.Windows.Forms.Button();
-            this.btn100Binary = new System.Windows.Forms.Button();
+            this.txtTo = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.txtFrom = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
             this.btnTree = new System.Windows.Forms.Button();
             this.txtRows = new System.Windows.Forms.TextBox();
@@ -68,8 +69,8 @@
             this.label3 = new System.Windows.Forms.Label();
             this.groupBox7 = new System.Windows.Forms.GroupBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label8 = new System.Windows.Forms.Label();
             this.labResult = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -207,15 +208,15 @@
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "二維陣列";
             // 
-            // btnTwoArr10
+            // btnTwoArr1001
             // 
-            this.btnTwoArr10.Location = new System.Drawing.Point(6, 17);
-            this.btnTwoArr10.Name = "btnTwoArr10";
-            this.btnTwoArr10.Size = new System.Drawing.Size(207, 28);
-            this.btnTwoArr10.TabIndex = 0;
-            this.btnTwoArr10.Text = "[10,10]二維陣列 - 邊1,內0";
-            this.btnTwoArr10.UseVisualStyleBackColor = true;
-            this.btnTwoArr10.Click += new System.EventHandler(this.btnTwoArr10_Click);
+            this.btnTwoArr1001.Location = new System.Drawing.Point(47, 69);
+            this.btnTwoArr1001.Name = "btnTwoArr1001";
+            this.btnTwoArr1001.Size = new System.Drawing.Size(134, 66);
+            this.btnTwoArr1001.TabIndex = 2;
+            this.btnTwoArr1001.Text = "[10,10]二維陣列 \r\n101010 \r\n010101";
+            this.btnTwoArr1001.UseVisualStyleBackColor = true;
+            this.btnTwoArr1001.Click += new System.EventHandler(this.btnTwoArr1001_Click);
             // 
             // btnTwoArr01
             // 
@@ -227,15 +228,15 @@
             this.btnTwoArr01.UseVisualStyleBackColor = true;
             this.btnTwoArr01.Click += new System.EventHandler(this.btnTwoArr01_Click);
             // 
-            // btnTwoArr1001
+            // btnTwoArr10
             // 
-            this.btnTwoArr1001.Location = new System.Drawing.Point(47, 69);
-            this.btnTwoArr1001.Name = "btnTwoArr1001";
-            this.btnTwoArr1001.Size = new System.Drawing.Size(134, 66);
-            this.btnTwoArr1001.TabIndex = 2;
-            this.btnTwoArr1001.Text = "[10,10]二維陣列 \r\n101010 \r\n010101";
-            this.btnTwoArr1001.UseVisualStyleBackColor = true;
-            this.btnTwoArr1001.Click += new System.EventHandler(this.btnTwoArr1001_Click);
+            this.btnTwoArr10.Location = new System.Drawing.Point(6, 17);
+            this.btnTwoArr10.Name = "btnTwoArr10";
+            this.btnTwoArr10.Size = new System.Drawing.Size(207, 28);
+            this.btnTwoArr10.TabIndex = 0;
+            this.btnTwoArr10.Text = "[10,10]二維陣列 - 邊1,內0";
+            this.btnTwoArr10.UseVisualStyleBackColor = true;
+            this.btnTwoArr10.Click += new System.EventHandler(this.btnTwoArr10_Click);
             // 
             // groupBox4
             // 
@@ -250,6 +251,16 @@
             this.groupBox4.TabIndex = 3;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "其他功能";
+            // 
+            // btn100Binary
+            // 
+            this.btn100Binary.Location = new System.Drawing.Point(6, 17);
+            this.btn100Binary.Name = "btn100Binary";
+            this.btn100Binary.Size = new System.Drawing.Size(207, 24);
+            this.btn100Binary.TabIndex = 3;
+            this.btn100Binary.Text = "100的二進位是";
+            this.btn100Binary.UseVisualStyleBackColor = true;
+            this.btn100Binary.Click += new System.EventHandler(this.btn100Binary_Click);
             // 
             // btn9x9
             // 
@@ -300,37 +311,35 @@
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "迴圈";
             // 
-            // txtFrom
+            // btnDo
             // 
-            this.txtFrom.Location = new System.Drawing.Point(65, 19);
-            this.txtFrom.Name = "txtFrom";
-            this.txtFrom.Size = new System.Drawing.Size(115, 27);
-            this.txtFrom.TabIndex = 4;
+            this.btnDo.Location = new System.Drawing.Point(186, 76);
+            this.btnDo.Name = "btnDo";
+            this.btnDo.Size = new System.Drawing.Size(93, 24);
+            this.btnDo.TabIndex = 11;
+            this.btnDo.Text = "Do";
+            this.btnDo.UseVisualStyleBackColor = true;
+            this.btnDo.Click += new System.EventHandler(this.btnDo_Click);
             // 
-            // label4
+            // btnWhile
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(11, 22);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(49, 19);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "From:";
+            this.btnWhile.Location = new System.Drawing.Point(186, 50);
+            this.btnWhile.Name = "btnWhile";
+            this.btnWhile.Size = new System.Drawing.Size(93, 23);
+            this.btnWhile.TabIndex = 10;
+            this.btnWhile.Text = "While";
+            this.btnWhile.UseVisualStyleBackColor = true;
+            this.btnWhile.Click += new System.EventHandler(this.btnWhile_Click);
             // 
-            // txtTo
+            // btnFor
             // 
-            this.txtTo.Location = new System.Drawing.Point(65, 48);
-            this.txtTo.Name = "txtTo";
-            this.txtTo.Size = new System.Drawing.Size(115, 27);
-            this.txtTo.TabIndex = 6;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(28, 51);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(29, 19);
-            this.label5.TabIndex = 5;
-            this.label5.Text = "To:";
+            this.btnFor.Location = new System.Drawing.Point(186, 19);
+            this.btnFor.Name = "btnFor";
+            this.btnFor.Size = new System.Drawing.Size(93, 25);
+            this.btnFor.TabIndex = 9;
+            this.btnFor.Text = "For";
+            this.btnFor.UseVisualStyleBackColor = true;
+            this.btnFor.Click += new System.EventHandler(this.btnFor_Click);
             // 
             // txtStep
             // 
@@ -348,45 +357,37 @@
             this.label6.TabIndex = 7;
             this.label6.Text = "Step:";
             // 
-            // btnFor
+            // txtTo
             // 
-            this.btnFor.Location = new System.Drawing.Point(186, 19);
-            this.btnFor.Name = "btnFor";
-            this.btnFor.Size = new System.Drawing.Size(93, 25);
-            this.btnFor.TabIndex = 9;
-            this.btnFor.Text = "For";
-            this.btnFor.UseVisualStyleBackColor = true;
-            this.btnFor.Click += new System.EventHandler(this.btnFor_Click);
+            this.txtTo.Location = new System.Drawing.Point(65, 48);
+            this.txtTo.Name = "txtTo";
+            this.txtTo.Size = new System.Drawing.Size(115, 27);
+            this.txtTo.TabIndex = 6;
             // 
-            // btnWhile
+            // label5
             // 
-            this.btnWhile.Location = new System.Drawing.Point(186, 50);
-            this.btnWhile.Name = "btnWhile";
-            this.btnWhile.Size = new System.Drawing.Size(93, 23);
-            this.btnWhile.TabIndex = 10;
-            this.btnWhile.Text = "While";
-            this.btnWhile.UseVisualStyleBackColor = true;
-            this.btnWhile.Click += new System.EventHandler(this.btnWhile_Click);
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(28, 51);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(29, 19);
+            this.label5.TabIndex = 5;
+            this.label5.Text = "To:";
             // 
-            // btnDo
+            // txtFrom
             // 
-            this.btnDo.Location = new System.Drawing.Point(186, 76);
-            this.btnDo.Name = "btnDo";
-            this.btnDo.Size = new System.Drawing.Size(93, 24);
-            this.btnDo.TabIndex = 11;
-            this.btnDo.Text = "Do";
-            this.btnDo.UseVisualStyleBackColor = true;
-            this.btnDo.Click += new System.EventHandler(this.btnDo_Click);
+            this.txtFrom.Location = new System.Drawing.Point(65, 19);
+            this.txtFrom.Name = "txtFrom";
+            this.txtFrom.Size = new System.Drawing.Size(115, 27);
+            this.txtFrom.TabIndex = 4;
             // 
-            // btn100Binary
+            // label4
             // 
-            this.btn100Binary.Location = new System.Drawing.Point(6, 17);
-            this.btn100Binary.Name = "btn100Binary";
-            this.btn100Binary.Size = new System.Drawing.Size(207, 24);
-            this.btn100Binary.TabIndex = 3;
-            this.btn100Binary.Text = "100的二進位是";
-            this.btn100Binary.UseVisualStyleBackColor = true;
-            this.btn100Binary.Click += new System.EventHandler(this.btn100Binary_Click);
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(11, 22);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(49, 19);
+            this.label4.TabIndex = 3;
+            this.label4.Text = "From:";
             // 
             // groupBox6
             // 
@@ -492,16 +493,6 @@
             this.panel1.Size = new System.Drawing.Size(1108, 277);
             this.panel1.TabIndex = 7;
             // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("微軟正黑體", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label8.Location = new System.Drawing.Point(-1, 0);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(86, 31);
-            this.label8.TabIndex = 0;
-            this.label8.Text = "Result";
-            // 
             // labResult
             // 
             this.labResult.AutoSize = true;
@@ -513,11 +504,23 @@
             this.labResult.TabIndex = 1;
             this.labResult.Text = "結果";
             // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("微軟正黑體", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.label8.Location = new System.Drawing.Point(-1, 0);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(86, 31);
+            this.label8.TabIndex = 0;
+            this.label8.Text = "Result";
+            // 
             // ForDoWhile
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1128, 568);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.groupBox7);

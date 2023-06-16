@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Loan));
             this.btnallpay = new System.Windows.Forms.Button();
             this.btnreport = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
@@ -43,7 +44,7 @@
             // 
             // btnallpay
             // 
-            this.btnallpay.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btnallpay.Font = new System.Drawing.Font("微軟正黑體", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.btnallpay.Location = new System.Drawing.Point(326, 276);
             this.btnallpay.Name = "btnallpay";
             this.btnallpay.Size = new System.Drawing.Size(130, 54);
@@ -54,7 +55,7 @@
             // 
             // btnreport
             // 
-            this.btnreport.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btnreport.Font = new System.Drawing.Font("微軟正黑體", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.btnreport.Location = new System.Drawing.Point(493, 277);
             this.btnreport.Name = "btnreport";
             this.btnreport.Size = new System.Drawing.Size(130, 54);
@@ -66,82 +67,86 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("微軟正黑體", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label1.Location = new System.Drawing.Point(151, 39);
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("微軟正黑體", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.label1.Location = new System.Drawing.Point(209, 57);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(123, 34);
+            this.label1.Size = new System.Drawing.Size(96, 26);
             this.label1.TabIndex = 3;
             this.label1.Text = "貸款金額";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("微軟正黑體", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label2.Location = new System.Drawing.Point(151, 88);
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Font = new System.Drawing.Font("微軟正黑體", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.label2.Location = new System.Drawing.Point(209, 106);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(168, 34);
+            this.label2.Size = new System.Drawing.Size(131, 26);
             this.label2.TabIndex = 4;
             this.label2.Text = "貸款期數(年)";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("微軟正黑體", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label3.Location = new System.Drawing.Point(151, 142);
+            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.Font = new System.Drawing.Font("微軟正黑體", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.label3.Location = new System.Drawing.Point(209, 160);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(111, 34);
+            this.label3.Size = new System.Drawing.Size(87, 26);
             this.label3.TabIndex = 5;
             this.label3.Text = "利率(%)";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("微軟正黑體", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label4.Location = new System.Drawing.Point(151, 190);
+            this.label4.BackColor = System.Drawing.Color.Transparent;
+            this.label4.Font = new System.Drawing.Font("微軟正黑體", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.label4.Location = new System.Drawing.Point(209, 208);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(96, 34);
+            this.label4.Size = new System.Drawing.Size(75, 26);
             this.label4.TabIndex = 6;
             this.label4.Text = "頭期款";
             // 
             // txtmoney
             // 
-            this.txtmoney.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.txtmoney.Location = new System.Drawing.Point(316, 39);
+            this.txtmoney.Font = new System.Drawing.Font("微軟正黑體", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.txtmoney.Location = new System.Drawing.Point(374, 57);
             this.txtmoney.Name = "txtmoney";
-            this.txtmoney.Size = new System.Drawing.Size(184, 29);
+            this.txtmoney.Size = new System.Drawing.Size(184, 35);
             this.txtmoney.TabIndex = 7;
             this.txtmoney.Text = "100000";
             // 
             // txtyear
             // 
-            this.txtyear.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.txtyear.Location = new System.Drawing.Point(316, 93);
+            this.txtyear.Font = new System.Drawing.Font("微軟正黑體", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.txtyear.Location = new System.Drawing.Point(374, 111);
             this.txtyear.Name = "txtyear";
-            this.txtyear.Size = new System.Drawing.Size(184, 29);
+            this.txtyear.Size = new System.Drawing.Size(184, 35);
             this.txtyear.TabIndex = 8;
             this.txtyear.Text = "2";
             // 
             // txtrate
             // 
-            this.txtrate.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.txtrate.Location = new System.Drawing.Point(316, 147);
+            this.txtrate.Font = new System.Drawing.Font("微軟正黑體", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.txtrate.Location = new System.Drawing.Point(374, 165);
             this.txtrate.Name = "txtrate";
-            this.txtrate.Size = new System.Drawing.Size(184, 29);
+            this.txtrate.Size = new System.Drawing.Size(184, 35);
             this.txtrate.TabIndex = 9;
             this.txtrate.Text = "10";
             // 
             // txtdownpay
             // 
-            this.txtdownpay.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.txtdownpay.Location = new System.Drawing.Point(316, 195);
+            this.txtdownpay.Font = new System.Drawing.Font("微軟正黑體", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.txtdownpay.Location = new System.Drawing.Point(374, 213);
             this.txtdownpay.Name = "txtdownpay";
-            this.txtdownpay.Size = new System.Drawing.Size(184, 29);
+            this.txtdownpay.Size = new System.Drawing.Size(184, 35);
             this.txtdownpay.TabIndex = 10;
             this.txtdownpay.Text = "0";
             // 
             // btnpmt
             // 
-            this.btnpmt.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btnpmt.Font = new System.Drawing.Font("微軟正黑體", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.btnpmt.Location = new System.Drawing.Point(157, 277);
             this.btnpmt.Name = "btnpmt";
             this.btnpmt.Size = new System.Drawing.Size(130, 54);
@@ -154,6 +159,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.txtdownpay);
             this.Controls.Add(this.txtrate);
